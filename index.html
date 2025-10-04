@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GRIDLINE // Web Design Studio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">Digital Agency</div>
+      <div id="menu-toggle" aria-label="Menu" aria-expanded="false" role="button" tabindex="0">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content fade-in">
+      <h1>Web Design for Brands That Mean Business</h1>
+      <p>We build fast, scalable, and strategic websites that push your brand forward.</p>
+      <a href="#contact" class="btn">Start Your Project</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about fade-in">
+    <div class="container">
+      <h2>About GRIDLINE</h2>
+      <p>
+        We’re a team of focused designers and developers building lean, modern web platforms for ambitious companies.
+        Our strength lies in turning complexity into clarity — with code, content, and strategy that scale.
+      </p>
+      <h3>What We Value</h3>
+      <ul class="values">
+        <li><strong>Precision:</strong> We don't guess — we test, iterate, and ship.</li>
+        <li><strong>Performance:</strong> Every project is optimized for speed and scalability.</li>
+        <li><strong>Partnership:</strong> We work with you, not just for you.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services dark-section">
+    <div class="container">
+      <h2 class="fade-in">What We Do</h2>
+      <div class="service-grid">
+        <div class="service slide-left">
+          <h3>Web Design</h3>
+          <p>Custom interfaces that reflect your brand — clean, responsive, and conversion-driven.</p>
+        </div>
+        <div class="service fade-in">
+          <h3>UI/UX Strategy</h3>
+          <p>User flows, wireframes, and experience design that align with real business goals.</p>
+        </div>
+        <div class="service slide-right">
+          <h3>Front-End Development</h3>
+          <p>Scalable HTML/CSS/JS built with modern standards and performance-first thinking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio fade-in">
+    <div class="container">
+      <h2>Recent Projects</h2>
+      <div class="portfolio-grid text-only">
+        <div class="project-card">
+          <h4>Atlas Legal</h4>
+          <p>Redesigned and optimized a law firm's website for clarity, trust, and speed.</p>
+        </div>
+        <div class="project-card">
+          <h4>ForgeTech</h4>
+          <p>Built a scalable front-end system for a SaaS company launching multiple products.</p>
+        </div>
+        <div class="project-card">
+          <h4>Studio North</h4>
+          <p>Developed a minimalist portfolio and CMS backend for a boutique design studio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials fade-in">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-track" id="testimonial-track">
+          <div class="testimonial">
+            <blockquote>
+              “GRIDLINE elevated our brand. Clear communication, flawless delivery, real results.”
+            </blockquote>
+            <cite>- A. Bennett, Creative Director</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>
+              “They built us a site that loads fast, looks sharp, and converts. We couldn't ask for more.”
+            </blockquote>
+            <cite>- C. Mendes, Growth Lead</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>
+              “Professional, skilled, and strategic. GRIDLINE is now our go-to partner for digital work.”
+            </blockquote>
+            <cite>- R. Fadel, Founder</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>Let’s Build Something</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GRIDLINE Web Design Studio. Built with intent. Delivered with precision.</p>
+  </footer>
+
+  <script defer src="main.js"></script>
+</body>
+</html>
